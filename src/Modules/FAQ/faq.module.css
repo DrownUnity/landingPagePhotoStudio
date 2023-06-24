@@ -1,0 +1,32 @@
+.seccion{
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.title{
+    margin-block: 3rem;
+}
+
+.vinculo{
+    text-decoration: none;
+    color: rgb(220,53,69);
+}
+
+.acordeon{
+    text-align: center;
+}
+
+@media (max-width: 800px){
+
+    .seccion{
+        height: 30vh;
+    }
+
+    .title{
+        margin-block: 1rem;
+    }
+    
+}

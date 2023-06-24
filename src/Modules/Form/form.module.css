@@ -1,0 +1,67 @@
+.formulario{
+    background-color: black;
+    color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5rem;
+
+}
+
+.seccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-inline: 10rem;
+    gap: 8rem
+}
+
+.art{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.formm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (max-width: 800px){
+    .formulario{
+        height: 40vh;;
+        text-align: center;
+        align-items: center;
+    }
+
+    .formulario h2{
+        margin-bottom: 2rem;
+        border-bottom: 1px solid white;
+    }
+
+    .seccion{
+        padding: 0;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+@media (max-width: 451px){
+    
+    .formulario{
+        height: 40vh;
+    }
+
+    .seccion{
+        gap:1rem
+    }
+
+}
