@@ -82,4 +82,14 @@
         justify-content: center;
         align-items: center;
     }
+
+    .section{
+        width: 100%;
+    }
+}
+
+@media (max-width:380px){
+    .section{
+        height: 100vh;
+    }
 }
