@@ -31,7 +31,7 @@ function Curso(){
                     </article>
                     <article className={Styles.art}>
                         <img className={Styles.imagen} src={camera} alt="Referencia 3" />
-                        <p>Con los 8 ejercicos del curso cambiaran tu forma de ver y hacer fotografía, teniendo un enfoque que resalte más tu estética</p>
+                        <p className={Styles.parrafo}>Con los 8 ejercicos del curso cambiaran tu forma de ver y hacer fotografía, teniendo un enfoque que resalte más tu estética</p>
                     </article>
                 </section>
             </section>
